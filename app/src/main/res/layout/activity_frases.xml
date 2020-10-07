@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frases"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="36sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sexo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/frases"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/compartir2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="compartir"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/home4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:onClick="getBack"
+            android:text="Inicio" />
+
+        <Button
+            android:id="@+id/salir4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salir" />
+    </LinearLayout>
+</LinearLayout>
